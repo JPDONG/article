@@ -1,3 +1,4 @@
+```
 public class BinarySearchTree<T extends Comparable<T>> {
 
     private Node<T> root;
@@ -109,3 +110,4 @@ public class BinarySearchTree<T extends Comparable<T>> {
 
     }
 }
+```
