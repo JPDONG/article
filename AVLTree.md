@@ -1,3 +1,4 @@
+```
 class AVLTree {
 
         Node root;
@@ -405,3 +406,4 @@ class AVLTree {
         }
 
     }
+```
