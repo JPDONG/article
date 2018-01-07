@@ -161,12 +161,12 @@ class AVLTree {
                     rotateRight(unBalancedNode.left);
                 } else if (unBalancedNode.left != null && unBalancedNode.left.right != null) {
                     rotateLeft(unBalancedNode.left.right);
-                    rotateRight(unBalancedNode);
+                    rotateRight(unBalancedNode.left);
                 } else if (unBalancedNode.right != null && unBalancedNode.right.right != null) {
                     rotateLeft(unBalancedNode.right);
                 } else if (unBalancedNode.right != null && unBalancedNode.right.left != null) {
                     rotateRight(unBalancedNode.right.left);
-                    rotateLeft(unBalancedNode);
+                    rotateLeft(unBalancedNode.right);
                 }
             }
         }
